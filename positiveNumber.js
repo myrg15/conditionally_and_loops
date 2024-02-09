@@ -3,11 +3,11 @@ var num = prompt("Enter number:");
 var numberEn = parseInt(num);
 
 if (numberEn > 0) {
-  alert("Number is positive: ", numberEn);
+  document.write("Number is positive: ", numberEn);
 } else {
   if (numberEn < 0) {
-    alert("Number is negative: ", numberEn);
+    document.write("Number is negative: ", numberEn);
   } else if (numberEn == 0) {
-    alert("Number is null");
+    document.write("Number is null");
   }
 }
